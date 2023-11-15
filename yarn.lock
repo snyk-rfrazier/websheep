@@ -7180,7 +7180,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^1.2.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@^1.2.7#~builtin<compat/fsevents>":
   version: 1.2.9
-  resolution: "fsevents@patch:fsevents@npm%3A1.2.9#~builtin<compat/fsevents>::version=1.2.9&hash=d11327"
+  resolution: "fsevents@patch:fsevents@npm%3A1.2.9#~builtin<compat/fsevents>::version=1.2.9&hash=18f3a7"
   dependencies:
     nan: ^2.12.1
     node-pre-gyp: ^0.12.0
@@ -7190,7 +7190,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.1.1#~builtin<compat/fsevents>":
   version: 2.1.1
-  resolution: "fsevents@patch:fsevents@npm%3A2.1.1#~builtin<compat/fsevents>::version=2.1.1&hash=31d12a"
+  resolution: "fsevents@patch:fsevents@npm%3A2.1.1#~builtin<compat/fsevents>::version=2.1.1&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -13162,14 +13162,14 @@ __metadata:
 
 "resolve@patch:resolve@1.1.7#~builtin<compat/resolve>":
   version: 1.1.7
-  resolution: "resolve@patch:resolve@npm%3A1.1.7#~builtin<compat/resolve>::version=1.1.7&hash=3bafbf"
+  resolution: "resolve@patch:resolve@npm%3A1.1.7#~builtin<compat/resolve>::version=1.1.7&hash=07638b"
   checksum: e9dbca78600ae56835c43a09f1276876c883e4b4bbd43e2683fa140671519d2bdebeb1c1576ca87c8c508ae2987b3ec481645ac5d3054b0f23254cfc1ce49942
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@1.x#~builtin<compat/resolve>, resolve@patch:resolve@^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.3.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.5.0#~builtin<compat/resolve>":
   version: 1.12.0
-  resolution: "resolve@patch:resolve@npm%3A1.12.0#~builtin<compat/resolve>::version=1.12.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.12.0#~builtin<compat/resolve>::version=1.12.0&hash=07638b"
   dependencies:
     path-parse: ^1.0.6
   checksum: 8a532655cc160961463214d2c2522fb4ea8808d13ff15cc48ab9c5193d302782a577c220481055e792fcc3b8a0df039251da903654780d5a7bb364b1f2e6861d
@@ -14668,19 +14668,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swagger-ui-dist@npm:^3.18.1":
-  version: 3.24.0
-  resolution: "swagger-ui-dist@npm:3.24.0"
-  checksum: e7e38403b46993fe76ee327065c29d170efba1599832d9d1c557c939e42616ae334c0865904087e320a3e220b398e8c4167e6f17ba2c7eb5e321c418d9af1425
+"swagger-ui-dist@npm:>=4.11.0":
+  version: 5.10.0
+  resolution: "swagger-ui-dist@npm:5.10.0"
+  checksum: f6bff492dd6fca1190da4f847098193d54054f775f89a09ab73a24e546389989b1dbdf071a0a45a7ad3ae7ba168b0866a2c22fffee4271e30ce3246296750f56
   languageName: node
   linkType: hard
 
-"swagger-ui-express@npm:^4.1.2":
-  version: 4.1.2
-  resolution: "swagger-ui-express@npm:4.1.2"
+"swagger-ui-express@npm:^4.2.0":
+  version: 4.6.3
+  resolution: "swagger-ui-express@npm:4.6.3"
   dependencies:
-    swagger-ui-dist: ^3.18.1
-  checksum: 49a7fab9bc9f675ea579ae2eaaf398bfc6314f8a3ce0e458864e84ca64f0198f3f60f80c7cda1ce31d26a8bf382d203aef4edff64d8328fd3e035a12e7ee8654
+    swagger-ui-dist: ">=4.11.0"
+  peerDependencies:
+    express: ">=4.0.0 || >=5.0.0-beta"
+  checksum: bd0e02d2572685fcd82701b29f27ba6a27bc72de2b1553e84f884d008a0bf85a3711c9e236bb658130d702892866744d1a8a30b52b887e4f8224635c57afc63d
   languageName: node
   linkType: hard
 
@@ -15361,7 +15363,7 @@ __metadata:
 
 "typescript@patch:typescript@3.2.4#~builtin<compat/typescript>, typescript@patch:typescript@~3.2.2#~builtin<compat/typescript>":
   version: 3.2.4
-  resolution: "typescript@patch:typescript@npm%3A3.2.4#~builtin<compat/typescript>::version=3.2.4&hash=9a3324"
+  resolution: "typescript@patch:typescript@npm%3A3.2.4#~builtin<compat/typescript>::version=3.2.4&hash=701156"
   bin:
     tsc: ./bin/tsc
     tsserver: ./bin/tsserver
@@ -15371,7 +15373,7 @@ __metadata:
 
 "typescript@patch:typescript@3.5.3#~builtin<compat/typescript>, typescript@patch:typescript@~3.5.3#~builtin<compat/typescript>":
   version: 3.5.3
-  resolution: "typescript@patch:typescript@npm%3A3.5.3#~builtin<compat/typescript>::version=3.5.3&hash=19b265"
+  resolution: "typescript@patch:typescript@npm%3A3.5.3#~builtin<compat/typescript>::version=3.5.3&hash=701156"
   bin:
     tsc: ./bin/tsc
     tsserver: ./bin/tsserver
@@ -15381,7 +15383,7 @@ __metadata:
 
 "typescript@patch:typescript@3.6.4#~builtin<compat/typescript>":
   version: 3.6.4
-  resolution: "typescript@patch:typescript@npm%3A3.6.4#~builtin<compat/typescript>::version=3.6.4&hash=19b265"
+  resolution: "typescript@patch:typescript@npm%3A3.6.4#~builtin<compat/typescript>::version=3.6.4&hash=701156"
   bin:
     tsc: ./bin/tsc
     tsserver: ./bin/tsserver
@@ -16162,7 +16164,7 @@ __metadata:
     rxjs: ~6.5.3
     shortid: ^2.2.15
     supertest: ^4.0.2
-    swagger-ui-express: ^4.1.2
+    swagger-ui-express: ^4.2.0
     ts-jest: 24.0.0
     ts-node: ~7.0.0
     tslint: ~5.11.0
