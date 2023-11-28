@@ -5,6 +5,16 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@angular-devkit/architect@npm:0.803.14":
+  version: 0.803.14
+  resolution: "@angular-devkit/architect@npm:0.803.14"
+  dependencies:
+    "@angular-devkit/core": 8.3.14
+    rxjs: 6.4.0
+  checksum: 3c274e24749e49e0a1ea22330036e62a7d37f5475fa476b4aa717da83581fd98ac6147fbdd8070ae315882d88902dad6e9c9ee812c91b2d4ebfbcdf6ed53a8bf
+  languageName: node
+  linkType: hard
+
 "@angular-devkit/architect@npm:0.803.2":
   version: 0.803.2
   resolution: "@angular-devkit/architect@npm:0.803.2"
@@ -257,6 +267,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@angular-devkit/core@npm:8.3.14":
+  version: 8.3.14
+  resolution: "@angular-devkit/core@npm:8.3.14"
+  dependencies:
+    ajv: 6.10.2
+    fast-json-stable-stringify: 2.0.0
+    magic-string: 0.25.3
+    rxjs: 6.4.0
+    source-map: 0.7.3
+  checksum: 89a33a6ab776280d0fcbfe39338f2e455898511b55c38311eee86632627853baf08a13fa1f994a3e0f941424f50db6e1c397f8cd81895bb0ccc8081ed7c70b47
+  languageName: node
+  linkType: hard
+
 "@angular-devkit/core@npm:8.3.2":
   version: 8.3.2
   resolution: "@angular-devkit/core@npm:8.3.2"
@@ -303,6 +326,16 @@ __metadata:
     "@angular-devkit/core": 7.3.9
     rxjs: 6.3.3
   checksum: 5bc1733768c19e0e1df1d1771610a9877f0382be1e2321541e464c892c1f22b8bc94642627b2d768d0c2f10393abe405d3cdb43f4792771e965a9c029186d88b
+  languageName: node
+  linkType: hard
+
+"@angular-devkit/schematics@npm:8.3.14":
+  version: 8.3.14
+  resolution: "@angular-devkit/schematics@npm:8.3.14"
+  dependencies:
+    "@angular-devkit/core": 8.3.14
+    rxjs: 6.4.0
+  checksum: 8c61663106d97e3777692fa340ddbccc99d8e7118e48500d8f5a90f486f15e340215086b9cbb361faafd582c68e708303418778d80bf2a5a4473820b90f53ae6
   languageName: node
   linkType: hard
 
@@ -1887,18 +1920,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nrwl/angular@npm:8.6.0":
-  version: 8.6.0
-  resolution: "@nrwl/angular@npm:8.6.0"
+"@nrwl/angular@npm:8.8.0":
+  version: 8.8.0
+  resolution: "@nrwl/angular@npm:8.8.0"
   dependencies:
-    "@angular-devkit/schematics": 8.3.3
-    "@nrwl/cypress": 8.6.0
-    "@nrwl/jest": 8.6.0
-    "@schematics/angular": 8.3.3
+    "@angular-devkit/schematics": 8.3.14
+    "@nrwl/cypress": 8.8.0
+    "@nrwl/jest": 8.8.0
+    "@schematics/angular": 8.3.14
     jasmine-marbles: ~0.6.0
   peerDependencies:
-    "@nrwl/workspace": 8.6.0
-  checksum: 45419b1b202c45568cce974e620accfc6bd163d5db412d98b1163be365d4733b1f503378f8cb74ba74242afcf4ea98ab684c164eeb1c9c8e308813720f513645
+    "@nrwl/workspace": 8.8.0
+  checksum: ffda1654b347aeee3059b06f18951730f3f8ad250ce708d12f5e411c178b94f1fef10cdc60a7e7679818a24f635d4937cf39164711cc2f2fe8fcac46367a8d5d
   languageName: node
   linkType: hard
 
@@ -1934,6 +1967,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nrwl/cypress@npm:8.8.0":
+  version: 8.8.0
+  resolution: "@nrwl/cypress@npm:8.8.0"
+  dependencies:
+    "@angular-devkit/architect": 0.803.14
+    "@angular-devkit/core": 8.3.14
+    "@cypress/webpack-preprocessor": ~4.1.0
+    tree-kill: 1.2.1
+    ts-loader: 5.3.1
+    tsconfig-paths-webpack-plugin: 3.2.0
+    webpack-node-externals: 1.7.2
+  peerDependencies:
+    "@nrwl/workspace": 8.8.0
+  checksum: 90a261fd14c0e5b24bf84b12de598f4680400e3a9b5616c511f54e9b3c992af6941d46596bcd2103cb91ef7b513de9da139fc4270e49fed2c868be4d7769498c
+  languageName: node
+  linkType: hard
+
 "@nrwl/express@npm:^8.6.0":
   version: 8.6.0
   resolution: "@nrwl/express@npm:8.6.0"
@@ -1957,6 +2007,19 @@ __metadata:
   peerDependencies:
     "@nrwl/workspace": 8.6.0
   checksum: 9500e0f8bcb47669d8d1c6fe2e59cf63a31dfa6a4ed7232449e9587912241d2cf7f4e85593bdb41844fc20e093190d0d049104566f1eaf63efb5bc9b52d805ac
+  languageName: node
+  linkType: hard
+
+"@nrwl/jest@npm:8.8.0":
+  version: 8.8.0
+  resolution: "@nrwl/jest@npm:8.8.0"
+  dependencies:
+    "@angular-devkit/architect": 0.803.14
+    "@angular-devkit/core": 8.3.14
+    "@angular-devkit/schematics": 8.3.14
+  peerDependencies:
+    "@nrwl/workspace": 8.8.0
+  checksum: f2cd3882d2b37825e475901dd12f35c7065ef5cf9aa6d557dd47848588d261147646f0b20094d87958c87a9d3c4825b2a6b4221872449d4f46aba75709cb906d
   languageName: node
   linkType: hard
 
@@ -2105,13 +2168,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@schematics/angular@npm:8.3.3":
-  version: 8.3.3
-  resolution: "@schematics/angular@npm:8.3.3"
+"@schematics/angular@npm:8.3.14":
+  version: 8.3.14
+  resolution: "@schematics/angular@npm:8.3.14"
   dependencies:
-    "@angular-devkit/core": 8.3.3
-    "@angular-devkit/schematics": 8.3.3
-  checksum: a89171dbc9355c4a1a78f97420d8d2c509605678733064404d399ee713b1d8804ae74201405ac17f4d59866aad1361677c7246140f5366d52d91af7f43b6a248
+    "@angular-devkit/core": 8.3.14
+    "@angular-devkit/schematics": 8.3.14
+  checksum: a0e260dd80cebf7c424574494063b1cd3ad5f8ca63171f5283f677f50bf5333cc5abe17d006c8220632b0c390682f31f4ab4232e7ee272bf7b6cb03b8aad38eb
   languageName: node
   linkType: hard
 
@@ -7180,7 +7243,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^1.2.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@^1.2.7#~builtin<compat/fsevents>":
   version: 1.2.9
-  resolution: "fsevents@patch:fsevents@npm%3A1.2.9#~builtin<compat/fsevents>::version=1.2.9&hash=d11327"
+  resolution: "fsevents@patch:fsevents@npm%3A1.2.9#~builtin<compat/fsevents>::version=1.2.9&hash=18f3a7"
   dependencies:
     nan: ^2.12.1
     node-pre-gyp: ^0.12.0
@@ -7190,7 +7253,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.1.1#~builtin<compat/fsevents>":
   version: 2.1.1
-  resolution: "fsevents@patch:fsevents@npm%3A2.1.1#~builtin<compat/fsevents>::version=2.1.1&hash=31d12a"
+  resolution: "fsevents@patch:fsevents@npm%3A2.1.1#~builtin<compat/fsevents>::version=2.1.1&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -13162,14 +13225,14 @@ __metadata:
 
 "resolve@patch:resolve@1.1.7#~builtin<compat/resolve>":
   version: 1.1.7
-  resolution: "resolve@patch:resolve@npm%3A1.1.7#~builtin<compat/resolve>::version=1.1.7&hash=3bafbf"
+  resolution: "resolve@patch:resolve@npm%3A1.1.7#~builtin<compat/resolve>::version=1.1.7&hash=07638b"
   checksum: e9dbca78600ae56835c43a09f1276876c883e4b4bbd43e2683fa140671519d2bdebeb1c1576ca87c8c508ae2987b3ec481645ac5d3054b0f23254cfc1ce49942
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@1.x#~builtin<compat/resolve>, resolve@patch:resolve@^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.3.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.5.0#~builtin<compat/resolve>":
   version: 1.12.0
-  resolution: "resolve@patch:resolve@npm%3A1.12.0#~builtin<compat/resolve>::version=1.12.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.12.0#~builtin<compat/resolve>::version=1.12.0&hash=07638b"
   dependencies:
     path-parse: ^1.0.6
   checksum: 8a532655cc160961463214d2c2522fb4ea8808d13ff15cc48ab9c5193d302782a577c220481055e792fcc3b8a0df039251da903654780d5a7bb364b1f2e6861d
@@ -15361,7 +15424,7 @@ __metadata:
 
 "typescript@patch:typescript@3.2.4#~builtin<compat/typescript>, typescript@patch:typescript@~3.2.2#~builtin<compat/typescript>":
   version: 3.2.4
-  resolution: "typescript@patch:typescript@npm%3A3.2.4#~builtin<compat/typescript>::version=3.2.4&hash=9a3324"
+  resolution: "typescript@patch:typescript@npm%3A3.2.4#~builtin<compat/typescript>::version=3.2.4&hash=701156"
   bin:
     tsc: ./bin/tsc
     tsserver: ./bin/tsserver
@@ -15371,7 +15434,7 @@ __metadata:
 
 "typescript@patch:typescript@3.5.3#~builtin<compat/typescript>, typescript@patch:typescript@~3.5.3#~builtin<compat/typescript>":
   version: 3.5.3
-  resolution: "typescript@patch:typescript@npm%3A3.5.3#~builtin<compat/typescript>::version=3.5.3&hash=19b265"
+  resolution: "typescript@patch:typescript@npm%3A3.5.3#~builtin<compat/typescript>::version=3.5.3&hash=701156"
   bin:
     tsc: ./bin/tsc
     tsserver: ./bin/tsserver
@@ -15381,7 +15444,7 @@ __metadata:
 
 "typescript@patch:typescript@3.6.4#~builtin<compat/typescript>":
   version: 3.6.4
-  resolution: "typescript@patch:typescript@npm%3A3.6.4#~builtin<compat/typescript>::version=3.6.4&hash=19b265"
+  resolution: "typescript@patch:typescript@npm%3A3.6.4#~builtin<compat/typescript>::version=3.6.4&hash=701156"
   bin:
     tsc: ./bin/tsc
     tsserver: ./bin/tsserver
@@ -16123,7 +16186,7 @@ __metadata:
     "@ngrx/effects": ^8.4.0
     "@ngrx/schematics": ^8.4.0
     "@ngrx/store": ^8.4.0
-    "@nrwl/angular": 8.6.0
+    "@nrwl/angular": 8.8.0
     "@nrwl/cypress": 8.6.0
     "@nrwl/express": ^8.6.0
     "@nrwl/jest": 8.6.0
