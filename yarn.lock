@@ -7180,7 +7180,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^1.2.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@^1.2.7#~builtin<compat/fsevents>":
   version: 1.2.9
-  resolution: "fsevents@patch:fsevents@npm%3A1.2.9#~builtin<compat/fsevents>::version=1.2.9&hash=d11327"
+  resolution: "fsevents@patch:fsevents@npm%3A1.2.9#~builtin<compat/fsevents>::version=1.2.9&hash=18f3a7"
   dependencies:
     nan: ^2.12.1
     node-pre-gyp: ^0.12.0
@@ -7190,7 +7190,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.1.1#~builtin<compat/fsevents>":
   version: 2.1.1
-  resolution: "fsevents@patch:fsevents@npm%3A2.1.1#~builtin<compat/fsevents>::version=2.1.1&hash=31d12a"
+  resolution: "fsevents@patch:fsevents@npm%3A2.1.1#~builtin<compat/fsevents>::version=2.1.1&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -10925,10 +10925,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^2.1.0":
-  version: 2.1.4
-  resolution: "nanoid@npm:2.1.4"
-  checksum: 5cb62941473c07ba2e43eea90f250a81eef3a6593687994a3f9ef65362abc7f77df4391556328d1460bd6df8cbfc33dadae2e6972061e26774dc04e5b4af7027
+"nanoid@npm:^3.3.8":
+  version: 3.3.8
+  resolution: "nanoid@npm:3.3.8"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: dfe0adbc0c77e9655b550c333075f51bb28cfc7568afbf3237249904f9c86c9aaaed1f113f0fddddba75673ee31c758c30c43d4414f014a52a7a626efc5958c9
   languageName: node
   linkType: hard
 
@@ -13162,14 +13164,14 @@ __metadata:
 
 "resolve@patch:resolve@1.1.7#~builtin<compat/resolve>":
   version: 1.1.7
-  resolution: "resolve@patch:resolve@npm%3A1.1.7#~builtin<compat/resolve>::version=1.1.7&hash=3bafbf"
+  resolution: "resolve@patch:resolve@npm%3A1.1.7#~builtin<compat/resolve>::version=1.1.7&hash=07638b"
   checksum: e9dbca78600ae56835c43a09f1276876c883e4b4bbd43e2683fa140671519d2bdebeb1c1576ca87c8c508ae2987b3ec481645ac5d3054b0f23254cfc1ce49942
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@1.x#~builtin<compat/resolve>, resolve@patch:resolve@^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.3.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.5.0#~builtin<compat/resolve>":
   version: 1.12.0
-  resolution: "resolve@patch:resolve@npm%3A1.12.0#~builtin<compat/resolve>::version=1.12.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.12.0#~builtin<compat/resolve>::version=1.12.0&hash=07638b"
   dependencies:
     path-parse: ^1.0.6
   checksum: 8a532655cc160961463214d2c2522fb4ea8808d13ff15cc48ab9c5193d302782a577c220481055e792fcc3b8a0df039251da903654780d5a7bb364b1f2e6861d
@@ -13781,12 +13783,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shortid@npm:^2.2.15":
-  version: 2.2.15
-  resolution: "shortid@npm:2.2.15"
+"shortid@npm:^2.2.17":
+  version: 2.2.17
+  resolution: "shortid@npm:2.2.17"
   dependencies:
-    nanoid: ^2.1.0
-  checksum: 2f2cff1aa2a46e2980684e4220cfe7dd71195e69f43c0846539b916d3b67b62b1b4e6842b69ba2b8e15d8e4b664862bdd72f7ae385dec5d4226b55d791588057
+    nanoid: ^3.3.8
+  checksum: e661408a6f7fb86a9947178984e739bdc99478745ffb8c8632b7b98c2a8d03d97c33aab6dcb9de73b8a64827a253266d407c362b6ac8b904b12014e8e428f9cd
   languageName: node
   linkType: hard
 
@@ -15361,7 +15363,7 @@ __metadata:
 
 "typescript@patch:typescript@3.2.4#~builtin<compat/typescript>, typescript@patch:typescript@~3.2.2#~builtin<compat/typescript>":
   version: 3.2.4
-  resolution: "typescript@patch:typescript@npm%3A3.2.4#~builtin<compat/typescript>::version=3.2.4&hash=9a3324"
+  resolution: "typescript@patch:typescript@npm%3A3.2.4#~builtin<compat/typescript>::version=3.2.4&hash=701156"
   bin:
     tsc: ./bin/tsc
     tsserver: ./bin/tsserver
@@ -15371,7 +15373,7 @@ __metadata:
 
 "typescript@patch:typescript@3.5.3#~builtin<compat/typescript>, typescript@patch:typescript@~3.5.3#~builtin<compat/typescript>":
   version: 3.5.3
-  resolution: "typescript@patch:typescript@npm%3A3.5.3#~builtin<compat/typescript>::version=3.5.3&hash=19b265"
+  resolution: "typescript@patch:typescript@npm%3A3.5.3#~builtin<compat/typescript>::version=3.5.3&hash=701156"
   bin:
     tsc: ./bin/tsc
     tsserver: ./bin/tsserver
@@ -15381,7 +15383,7 @@ __metadata:
 
 "typescript@patch:typescript@3.6.4#~builtin<compat/typescript>":
   version: 3.6.4
-  resolution: "typescript@patch:typescript@npm%3A3.6.4#~builtin<compat/typescript>::version=3.6.4&hash=19b265"
+  resolution: "typescript@patch:typescript@npm%3A3.6.4#~builtin<compat/typescript>::version=3.6.4&hash=701156"
   bin:
     tsc: ./bin/tsc
     tsserver: ./bin/tsserver
@@ -16160,7 +16162,7 @@ __metadata:
     pbkdf2: ^3.0.17
     prettier: 1.18.2
     rxjs: ~6.5.3
-    shortid: ^2.2.15
+    shortid: ^2.2.17
     supertest: ^4.0.2
     swagger-ui-express: ^4.1.2
     ts-jest: 24.0.0
