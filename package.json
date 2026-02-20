@@ -54,7 +54,7 @@
     "@angular/router": "^9.0.0-next.11",
     "@ngrx/effects": "^8.4.0",
     "@ngrx/store": "^8.4.0",
-    "@nrwl/angular": "8.6.0",
+    "@nrwl/angular": "8.8.0",
     "@wishtack/rx-scavenger": "^1.0.5",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
